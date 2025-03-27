@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+    width: 720px;
+    border: 10px solid gray;
+    display: flex;
+    flex-direction: row;
+}
