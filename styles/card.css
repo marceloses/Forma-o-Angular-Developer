@@ -6,8 +6,37 @@
 }
 
 .card {
-    width: 720px;
-    border: 10px solid gray;
+    width: 90%;    
+    -webkit-box-shadow: 11px 12px 16px 24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 12px 16px 24px rgba(0,0,0,0.75);
+    box-shadow: 11px 12px 16px 24px rgba(0,0,0,0.75);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.card__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.card__left >span {
+    font-weight: 500;
+}
+
+.card__left a {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.card__left >p {
+    color: gray;
+
 }
